@@ -1,0 +1,135 @@
+body,html
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 1.3em;
+}
+
+input{
+    margin: 0;
+    padding: 0;
+}
+
+p
+{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+a
+{
+    text-decoration: none;
+}
+/*HEADER*/
+.header
+{
+    padding-top: 10px;
+    padding-bottom: 2px;
+
+    border-bottom: 2px solid rgb(122, 122, 122) ;
+    background-color: rgb(233, 214, 107);
+}
+
+#header_mine
+{
+    display: flex;
+    justify-content: center;
+}
+
+.GroupBTN
+{
+    margin-left: 1em;
+}
+
+.GroupBTN
+{
+    display: flex;
+}
+
+#Metka_Class
+{
+    display: flex;
+    
+}
+#SettingsSpeedDIV
+{
+    display: flex;
+}
+
+.GroupClass{
+    margin-left: 1%;
+}
+
+.inputS
+{
+    width: 40px;
+}
+
+#btnSpeed
+{
+    width: 11%;
+}
+
+#settingsSpeedText
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+#settingsSpeedText:hover
+{
+    color: rgb(49, 77, 168);
+    cursor: pointer;
+}
+
+/*///////////////*/
+
+/*Holst*/
+
+#General_block
+{
+    height: 95%;
+}
+
+#SVG
+{
+    background-color: bisque;
+    width: 100%;
+    height: 100%;
+}
+
+.circle
+{
+    cursor: grab;
+   stroke: none;
+    stroke-width: 0.2%
+}
+
+.rect
+{
+    cursor: grab;
+    stroke-width: 0.2%
+}
+
+.line:hover
+{
+    stroke-width: 10px;
+    fill: red;
+}
+
+.textT
+{
+    font-size: 58px;
+}
+
+.textP
+{
+    font-size: 58px;
+}
+
+/*///////////////*/
+
+
+
+
